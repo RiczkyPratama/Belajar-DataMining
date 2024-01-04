@@ -1,5 +1,8 @@
 <?php
 
+// Penjelasan ada di https://github.com/RiczkyPratama/Belajar-DataMining
+// Dukung developer di https://saweria.co/sikelinciperak
+
 // 1.1 Cara Penulisan Variable
 $nama;
 
@@ -20,5 +23,12 @@ echo "Perkenalkan Nama Saya " .$nama1. " dan Umur Saya " .$umur1;
 
 // Penjelasan ada di https://github.com/RiczkyPratama/Belajar-DataMining
 // Dukung developer di https://saweria.co/sikelinciperak
+
+// 1.4 Mengupdate Isi Variable
+echo "</br>";
+echo "</br>";
+$alamat = "Bandung";
+$alamat = "Jakarta";
+echo $alamat;
 
 ?>
