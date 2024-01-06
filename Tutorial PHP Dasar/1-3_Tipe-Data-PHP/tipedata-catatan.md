@@ -38,3 +38,40 @@ Cara penulisan variabel yang bertipe data integer dapat di lihat pada contoh tip
 Terdapat dua buah variabel yang bernama $bilangan_pertama dan $bilangan_kedua.
 Kedua variabel tersebut berisikan angka yang berbentuk bilangan bulat atau bilangan asli.
 Oleh sebab itu kedua variabel di bagian 1.3.2 di sebut sebagai variabel yang bertipe data Integer.
+
+## Tipe Data Float pada PHP
+
+Tipe data float atau di sebut juga tipe data double adalah tipe data yang berisi bilangan desimal.
+Penulisannya hampir sama dengan tipe data integer karena tidak memerlukan tanda petik di awal dan di akhir isi variabel float.
+Contoh penulisan variabel yang bertipe data Float pada PHP dapat dilihat pada bagian 1.3.3.
+
+(Lihat tipedataphp1.php || bagian 1.3.3)
+
+## Tipe Data Boolean pada PHP
+
+Tipe data boolean adalah tipe data yang hanya memiliki dua buah value/isi/nilai.
+Dengan nilai yang berisi true dan false. Atau 0 dan 1.
+True yang di sebut dengan 1 dan false di sebut 0.
+
+Tipe data boolean sering di gunakan untuk memeriksa ketersediaan atau memeriksa nilai kebenaran pada sebuah data.
+Contoh penulisan tipe data bolean dapat dilihat pada bagian 1.3.4.
+
+(Lihat tipedataphp1.php || bagian 1.3.3)
+
+Pada contoh tersebut terdapat sebuah variabel x yang berisi nilai false/salah dan variabal y yang berisi nilai true/benar.
+
+
+## Tipe Data Array pada PHP
+
+Array adalah sebuah tipe data yang menyimpan banyak isi di dalam sebuah variabel.
+Jika kita ibaratkan array seperti sebuahh tas yang di dalamnya bisa saja berisi pulpen, buku, penggaris dan lainnya.
+
+Isi dari pada variabel array di tandai dengan masing-masing angka yang sudah di terapkan menurut urutannya.
+
+(Lihat tipedataphp1.php || bagian 1.3.4)
+
+Untuk menggunakan tipe data array bisa menggunakan fungsi array().
+Kemudian di isi dengan isi dan di pisahkan dengan tanda koma pada tiap-tiap isi variabel.
+
+Pada contoh veriabel array anggota di atas terdapat andi, budi dan joni. dimana andi sebagai 0, budi sebagai 1, dan joni sebagai 2.
+Angka yang diberikan pada tiap-tiap isi array di mulai dari 0.
