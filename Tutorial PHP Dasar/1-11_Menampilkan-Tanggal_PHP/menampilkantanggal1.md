@@ -71,12 +71,13 @@ Dalam penggunaan fungsi date() kita juga dapat menampilkan waktu seperti jam, me
 
 Untuk format karakter untuk menampilkan waktu jam bisa menggunakan :
 
-| Format | Katerangan |
-| s | untuk menampilkan detik saat ini. format yang di tampilkan angka dari 0 sampai dengan 59 |
-| i | untuk menampilkan menit sekarang dalam format 0 sampai dengan 59 |
-| h | untuk menampilkan jam sekarang salam format 1 sampai 12 |
-| H | H(huruf besar) digunakan untuk menampilkan format jam dalam bentuk 24 jam |
-| a | untuk menampilkan waktu am atau pm sekarang |
+| Format | Keterangan                                              |
+|--------|---------------------------------------------------------|
+| s      | Untuk menampilkan detik saat ini (angka 0 sampai 59).  |
+| i      | Untuk menampilkan menit sekarang (angka 0 sampai 59).   |
+| h      | Untuk menampilkan jam sekarang dalam format 1 sampai 12. |
+| H      | Untuk menampilkan jam sekarang dalam format 0 sampai 23. |
+| a      | Untuk menampilkan waktu AM atau PM sekarang.             |
 
 Sama seperti format penulisan tanggal, anda dapat menambahkan karakter-karakter sesuai dengan keinginan.
 
