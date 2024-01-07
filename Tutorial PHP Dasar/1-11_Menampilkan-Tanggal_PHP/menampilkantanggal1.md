@@ -1,4 +1,4 @@
-## Tutorial PHP : Menampilkan Tanggal
+# Tutorial PHP : Menampilkan Tanggal
 
 Untuk menampilkan tanggal pada PHP bisa menggunakan fungsi date().
 
@@ -27,7 +27,9 @@ Parameter ini harus di isi untuk membuat format tanggal.
 
 Dan parameter timestamp merupakan parameter optional artinya boleh di isi boleh juga di kosongkan.
 
-# Cara Menampilkan Tanggal di PHP
+dukung kreator di https://saweria.co/sikelinciperak
+
+## Cara Menampilkan Tanggal di PHP
 
 Format karakter yang dapat digunakan sesuai keinginkan dan masing masing format karakter ini memiliki kegunaannya masing-masing:
 
@@ -40,3 +42,59 @@ Format karakter yang dapat digunakan sesuai keinginkan dan masing masing format 
 | m   | karakter m (huruf kecil) digunakan untuk menampilkan nama bulan sekarang. nama bulan di tampilkan dalam bentuk huruf.   |
 | Y   | karakter Y (huruf kapital) digunakan untuk menampilkan tahun dalam bentuk angka empat digit.   |
 | y   | karakter y (huruf kecil) digunakan untuk menampilkan angka tahun dalam bentuk dua digit. angka yang di tampilkan adalah dua angka terakhir dari tahun.   |
+
+Kemudian terdapat beberapa karakter tambahan yang bisa anda tambahkan untuk membuat format tanggal sesuai dengan keinginan seperti: 
+1. Menambahkan karakter "/" (garis miring)
+2. Menambahkan karakter "." (titik)
+3. Menambahkan karakter "-" (strip)
+4. Menambahkan karakter "," (koma)
+5. Karakter lainnya
+
+(lihat menampilkantanggal1.php || pada bagian 1.11.1)
+```php
+echo date('l, d-m-Y');
+
+echo "<br/>";
+
+echo date('d / M / y');
+
+echo "<br/>";
+
+echo date('D - M / Y');
+```
+
+dukung kreator di https://saweria.co/sikelinciperak
+
+## Menampilkan Waktu di PHP
+
+Dalam penggunaan fungsi date() kita juga dapat menampilkan waktu seperti jam, menit, detik serta am dan pm.
+
+Untuk format karakter untuk menampilkan waktu jam bisa menggunakan :
+
+| Format | Katerangan |
+| s | untuk menampilkan detik saat ini. format yang di tampilkan angka dari 0 sampai dengan 59 |
+| i | untuk menampilkan menit sekarang dalam format 0 sampai dengan 59 |
+| h | untuk menampilkan jam sekarang salam format 1 sampai 12 |
+| H | H(huruf besar) digunakan untuk menampilkan format jam dalam bentuk 24 jam |
+| a | untuk menampilkan waktu am atau pm sekarang |
+
+Sama seperti format penulisan tanggal, anda dapat menambahkan karakter-karakter sesuai dengan keinginan.
+
+Untuk contoh menampilkan waktu jam sebagai berikut:
+
+(lihat menampilkantanggal1.php || pada bagian 1.11.2)
+```php
+// menampilkan jam sekarang
+echo date('H:i:s a');
+
+echo "<br/>";
+
+// kombinasi format tanggal dan jam
+echo date('l, d-m-Y h:i:s a');
+```
+
+Untuk menampilkan data waktu kita bisa menggunakan fungsi date(), dengan mengisi format 'H:i:s a' di dalamnya.
+
+Sehingga hasilnya akan menjadi jam:menit:detik pm.
+
+dukung kreator di https://saweria.co/sikelinciperak
