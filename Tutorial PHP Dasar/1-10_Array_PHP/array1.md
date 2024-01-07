@@ -8,11 +8,19 @@ Angka pada masing masing isi array dimulai dari 0,1,2,3 dan seterusnya.
 
 Ada dua cara penamaan atau pemanggilan isi array. Yaitu dengan cara memanggil menggunakan angka default array dan bisa juga dengan memberikan penamaan pada masing-masing isi array.
 
+dukung kreator di https://saweria.co/sikelinciperak
+
 # Membuat dan Memanggil Data pada Array secara Biasa
 
 Secara default, tiap-tiap isi dari pada variabel array di beri nomor urut, yaitu mulai dari 0.
 
 (Lihat array1.php || pada bagian 1.10.1)
+```php
+// membuat array yang berisi nama buah-buahan
+$buah = array('semangka','jeruk','appel','anggur');
+// menampilkan data array dengan nomor urut 2
+echo $buah[2];
+```
 
 Kita memiliki sebuah variabel array dengan nama variabel buah.
 
@@ -29,6 +37,8 @@ echo $buah[2];
 ```
 
 Karena buah apel memiliki nomor urut 2 maka hasil jika browser dijalankan adalah menampilkan kata "apel".
+
+dukung kreator di https://saweria.co/sikelinciperak
 
 # Membuat dan Memberi Penamaan pada Isi Array
 
@@ -70,3 +80,24 @@ Seperti contoh 1.10.3 , kita secara langsung memberikan nama pada isi dari varia
 4. Variabel array anggur berisi "harganya mahal"
 
 Karena disini, kita memanggil variabel array jeruk maka yang muncul "rasanya manis".
+
+dukung kreator di https://saweria.co/sikelinciperak
+
+# Contoh Menerapkan Arrau dengan For
+
+(Lihat array1.php || pada bagian 1.10.4)
+```php
+// membuat array yang berisi nama buah-buahan
+$buah = array('semangka','jeruk','appel','anggur');
+// count( untuk menghitung isi array)
+for ($x=0; $x <count($buah) ; $x++) { 
+	echo $buah[$x]."<br/>";
+}
+```
+
+Function count() untuk menghitung jumlah isi array.
+
+Perulangan for di atas akan menghasilkan 0 sampai 3. Kenapa tiga?
+Karena kita menggunakan lebih kecil dari jumlah isi array.
+
+Sehingga kita bisa menampilkan isi aray menggunakan urutan angka for.

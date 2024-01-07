@@ -40,4 +40,18 @@ $buah = array(
 // menampilkan isi array yang bernama jeruk
 echo $buah['jeruk'];
 
+
+echo "<br>";
+echo "<br>";
+
+
+// 1.11.4 Contoh Menerapkan Array dengan For
+
+// membuat array yang berisi nama buah-buahan
+$buah = array('semangka','jeruk','appel','anggur');
+// count( untuk menghitung isi array)
+for ($x=0; $x <count($buah) ; $x++) { 
+	echo $buah[$x]."<br/>";
+}
+
 ?>
